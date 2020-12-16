@@ -1,0 +1,72 @@
+.popup {
+    position: relative;
+    display: inline-block;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .4);
+    border-radius: 6px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    display: block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.coverlay {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(250, 250, 250, .0);
+    border-radius: 8px 8px 0 0;
+    transition: background .5s;
+    background-image: url("http://wellscreate.com/wp-content/uploads/2017/11/Untitled-1-01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    cursor: pointer;
+}
+
+.coverlay:hover {
+    background: rgba(250, 250, 250, .0);
+    background-image: url("http://wellscreate.com/wp-content/uploads/2017/11/Untitled-1-01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16%;
+}

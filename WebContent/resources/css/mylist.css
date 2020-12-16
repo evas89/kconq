@@ -1,0 +1,20 @@
+video{
+    border-radius: 10%;
+}
+.overLayer {
+	display: none; 
+	width: 300px; 
+	font-size:1em; 
+	line-height:1.2em; 
+	font-weight: 100;
+	padding: 10px;
+    border: 2px solid gray;
+       background-color: #FFF;
+}
+
+/* description ... 생략기호 표시 */
+.ellipsis {
+	overflow:hidden; 
+	text-overflow:ellipsis; 
+	white-space:nowrap;
+}

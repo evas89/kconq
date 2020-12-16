@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap');
+
+h1 {
+    font-family: 'Sunflower', sans-serif;
+    position: relative;
+    font-size: 25px;
+    color: #222;
+    line-height: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.qnimg {
+    left: 150px;
+}
+/* 게시판 목록 */
+#board_area {
+    margin: 0 auto;
+    width: 700px;
+    padding: 30px;
+    position: relative;
+}
+.list-table {
+    margin-top: 40px;
+}
+.list-table thead th {
+    height: 40px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: rgba(219, 216, 216, 0.586);
+    color: darkgray;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.list-table tbody td {
+    text-align: center;
+    padding: 8px 0;
+    border-bottom: 2px solid #CCC;
+    height: 20px;
+    font-size: 14px
+}
+
+/* 버튼 */
+.button {
+    font-family: 'Sunflower', sans-serif;
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    right: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 200px;
+    color: #11bdd1;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #11bdd1;
+    box-shadow: 0px 10px 10px darkgray;
+    color: white;
+    transform: scale(1);
+    border-radius: 10px;
+}

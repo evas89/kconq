@@ -1,0 +1,21 @@
+#scTop button:focus {
+	outline: none;
+}
+
+#scTop button.btnTop {
+	background: none;
+	border: none;
+	position: fixed;
+	z-index: 80;
+	right: 0;
+	top: 90%;
+	transform: translateY(-50%);
+	padding: 40px 22px;
+	box-sizing: border-box;
+}
+
+#scTop button.btnTop:hover:before,
+#scTop button.btnTop:focus:before{
+	right:0;
+	cursor: pointer;
+}
